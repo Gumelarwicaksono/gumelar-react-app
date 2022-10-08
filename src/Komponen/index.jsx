@@ -1,8 +1,9 @@
+import ClasKomponen from './partone/ClasKomponen';
 function test() {
   return (
     <div className="test">
-      <div className="nav">
-        <h3>gumelar wicaksono</h3>
+      <div>
+        <ClasKomponen />
         <ul>
           <li>mongodb</li>
           <li>exspres</li>
