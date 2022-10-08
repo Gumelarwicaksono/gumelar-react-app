@@ -1,15 +1,13 @@
 import ClasKomponen from './partone/ClasKomponen';
+import FungsiKomponen from './partone/FungsiKomponen';
 function test() {
+  const brand = 'gumelar react app';
+  const lists = ['mongodb', 'exspres', 'react', 'nodejs'];
   return (
-    <div className="test">
+    <div>
       <div>
-        <ClasKomponen />
-        <ul>
-          <li>mongodb</li>
-          <li>exspres</li>
-          <li>react</li>
-          <li>nodejs</li>
-        </ul>
+        <ClasKomponen nama={brand} />
+        <FungsiKomponen nama={lists} />
       </div>
     </div>
   );
