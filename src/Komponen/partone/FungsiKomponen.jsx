@@ -8,6 +8,7 @@ function lis({ nama }) {
   });
   return (
     <>
+      <h3 style={{marginLeft : 20}}> <i>list learning path</i> </h3>
       <div className="list">
         <ul>{list}</ul>
       </div>

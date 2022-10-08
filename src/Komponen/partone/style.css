@@ -1,0 +1,29 @@
+.nav {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+}
+
+.tambah {
+  display: flex;
+  margin-left: 20px;
+}
+.tambah button{
+  width: 40px;
+  height: 25px;
+  margin: 20px;
+  border: 1px solid rgb(212, 10, 10);
+  background-color: rgb(204, 204, 124);
+}
+.tambah h3{
+  color: brown;
+}
+.tambah .btn{
+  width: 60px;
+  height: 30px;
+  background-color: green;
+  color: white;
+}
+.tambah .btn-hasil {
+  color: green;
+}
